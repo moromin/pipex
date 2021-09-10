@@ -4,6 +4,10 @@
 # include <stdio.h>
 # include <unistd.h>
 # include <stdlib.h>
+# include <err.h>
 # include "../libft/libft.h"
+
+// free_array.c
+void	free_split(char **split);
 
 #endif

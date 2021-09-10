@@ -1,5 +1,6 @@
 NAME		= pipex
-SRC			=	main.c
+SRC			=	main.c \
+				free_array.c
 SRCDIR		= sources
 INCDIR		= includes
 SRCS		= $(addprefix $(SRCDIR)/, $(SRC))
